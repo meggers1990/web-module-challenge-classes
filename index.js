@@ -188,7 +188,7 @@ class Student extends Lambdasian {
     return `${this.name} has submitted a PR for ${subject}.`;
    }
    sprintChallenge(subject) {
-    return `${this.name} has began sprint challenge on ${this.subject}.`;
+    return `${this.name} has began sprint challenge on ${subject}.`;
    }
 }
 
